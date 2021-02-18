@@ -1,2 +1,28 @@
-# android_device_xiaomi_cas
- ArrowOS Device Tree for Mi 10 Ultra
+Copyright (C) 2020 Project 404
+
+Device configuration for Xiaomi MI 10 Ultra
+
+=========================================
+
+The Xiaomi MI 10 Ultra (codenamed _"cas"_) is a high-end smartphone from Xiaomi.
+
+It was announced on February 2020. Release date was February 2020.
+
+Adapted from [CMI](https://github.com/ArrowOS-Devices/android_device_xiaomi_cmi)(Mi 10 Pro) By Xayah
+## Device specifications
+
+Basic   | Spec Sheet
+-------:|:-------------------------
+SoC     | Qualcomm SDM865 Snapdragon 865
+CPU     | Octa-core (1x2.84 GHz Kryo 585 & 3x2.42 GHz Kryo 585 & 4x1.80 GHz Kryo 585)
+GPU     | Adreno 650
+Memory  | 128GB 8GB RAM, 256GB 8GB RAM, 256GB 12GB RAM, 512GB 16GB RAM
+Shipped Android Version | 10.0 with MIUI 12
+Storage | 128/256/512 GB
+Battery | Li-Ion 4500 mAh, non-removable, graphene-enhanced
+Display | 1080 x 2340 pixels, 19.5:9 ratio, 6.67 inches, OLED, 1B colors, 120Hz, HDR10+, 800 nits
+Camera  | 48MP(wide) 48MP(Periscope Telephoto) 20MP(Ultra-wide) 12MP(Telephoto 2x Optical Zoom) 8MP(Telephoto 5x Hybrid zoom)
+
+## Device picture
+
+![Xiaomi MI 10 5G ](https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-mi10-ultra-11.jpg "Xiaomi MI 10 Ultra 5G")
