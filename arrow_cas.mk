@@ -21,19 +21,19 @@ $(call inherit-product, device/xiaomi/cas/kona.mk)
 $(call inherit-product, vendor/arrow/config/common.mk)
 
 # Override build properties
-PRODUCT_NAME := arrow_cas
+PRODUCT_NAME := cas
 PRODUCT_DEVICE := cas
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := MI 10 Ultra
+PRODUCT_MODEL := M2007J1SC
 PRODUCT_MANUFACTURER := Xiaomi
 DEVICE_MAINTAINER := Xayah
 
 PRODUCT_CHARACTERISTICS := nosdcard
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DISC="cas-user 11 RKQ1.200826.002/21.2.3 release-keys"
+    PRIVATE_BUILD_DISC="cas-user 11 RKQ1.200826.002/V12.1.1.0.RJJCNXM release-keys"
 
-BUILD_FINGERPRINT := "qti/qssi/qssi:11/RKQ1.200826.002/21.2.3:user/release-keys"
+BUILD_FINGERPRINT := "qti/qssi/qssi:11/RKQ1.200826.002/V12.1.1.0.RJJCNXM:user/release-keys"
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
