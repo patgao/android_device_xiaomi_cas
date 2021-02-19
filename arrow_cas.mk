@@ -21,7 +21,7 @@ $(call inherit-product, device/xiaomi/cas/kona.mk)
 $(call inherit-product, vendor/arrow/config/common.mk)
 
 # Override build properties
-PRODUCT_NAME := cas
+PRODUCT_NAME := arrow_cas
 PRODUCT_DEVICE := cas
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := M2007J1SC
