@@ -1,4 +1,4 @@
-Copyright (C) 2020 Project 404
+Copyright (C) 2020 PixelExperience
 
 Device configuration for Xiaomi MI 10 Ultra
 
@@ -6,7 +6,7 @@ Device configuration for Xiaomi MI 10 Ultra
 
 The Xiaomi MI 10 Ultra (codenamed _"cas"_) is a high-end smartphone from Xiaomi.
 
-It was announced on February 2020. Release date was February 2020.
+It was announced on February 2020. Release date was August 2020.
 
 Adapted from [CMI](https://github.com/ArrowOS-Devices/android_device_xiaomi_cmi)(Mi 10 Pro) By Xayah
 ## Device specifications

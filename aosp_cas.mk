@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 Project 404
+# Copyright (C) 2020 PixelExperience
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,13 +15,13 @@
 #
 
 # Inherit device configuration
-$(call inherit-product, device/xiaomi/cas/kona.mk)
+$(call inherit-product, device/xiaomi/cas/device.mk)
 
-# Inherit some common Arrow stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit some common AOSP stuff.
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 # Override build properties
-PRODUCT_NAME := arrow_cas
+PRODUCT_NAME := aosp_cas
 PRODUCT_DEVICE := cas
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := M2007J1SC

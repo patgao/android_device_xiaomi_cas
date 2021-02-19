@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 Project 404
+# Copyright (C) 2020 PixelExperience
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_cas.mk
+    $(LOCAL_DIR)/aosp_cas.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_cas-user \
-    arrow_cas-userdebug \
-    arrow_cas-eng
+    aosp_cas-user \
+    aosp_cas-userdebug \
+    aosp_cas-eng

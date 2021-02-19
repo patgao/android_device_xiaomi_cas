@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 Project 404
+# Copyright (C) 2020 PixelExperience
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -48,7 +48,7 @@ PRODUCT_TARGET_VNDK_VERSION := 30
 TARGET_BOARD_PLATFORM := kona
 
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-arrow
+    $(LOCAL_PATH)/overlay-aosp
 
 # A/B
 AB_OTA_UPDATER := false
