@@ -121,9 +121,9 @@ PRODUCT_COPY_FILES += \
 
 # APN
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/system/etc/apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/system/etc/apns-conf.xml \
-    $(LOCAL_PATH)/configs/system/etc/fiveG-apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/system/etc/fiveG-apns-conf.xml \
-    $(LOCAL_PATH)/configs/product/etc/apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/product/etc/apns-conf.xml
+    $(LOCAL_PATH)/configs/system/etc/apns-conf.xml:system/etc/apns-conf.xml \
+    $(LOCAL_PATH)/configs/system/etc/fiveG-apns-conf.xml:system/etc/fiveG-apns-conf.xml \
+    $(LOCAL_PATH)/configs/product/etc/apns-conf.xml:product/etc/apns-conf.xml
     
 # Input
 PRODUCT_COPY_FILES += \
