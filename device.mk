@@ -119,6 +119,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/hotword-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/hotword-hiddenapi-package-whitelist.xml \
     $(LOCAL_PATH)/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml
 
+# APN
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/system/etc/apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/system/etc/apns-conf.xml \
+    $(LOCAL_PATH)/configs/system/etc/fiveG-apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/system/etc/fiveG-apns-conf.xml \
+    $(LOCAL_PATH)/configs/product/etc/apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/product/etc/apns-conf.xml
+    
 # Input
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl
