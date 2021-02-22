@@ -162,7 +162,7 @@ Return<bool> FingerprintInscreen::shouldBoostBrightness() {
 }
 
 
-Return<void> FingerprintInscreen::setCallback(const sp<IFingerprintInscreenCallback>& /* callback */) {
+Return<void> FingerprintInscreen::setCallback(const sp<IFingerprintInscreenCallback>& callback) {
     {
         std::lock_guard<std::mutex> _lock(mCallbackLock);
         mCallback = callback;
