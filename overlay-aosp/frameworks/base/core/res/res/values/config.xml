@@ -30,4 +30,7 @@
     
     <!-- NightLight FOD -->
     <bool name="disable_fod_night_light">true</bool>
+
+    <!-- Screen off FOD -->
+    <bool name="config_supportsInDisplayFingerprintGesture">true</bool>
 </resources>
