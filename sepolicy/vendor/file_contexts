@@ -1,0 +1,2 @@
+# DC Dimming
+/sys/devices/platform/soc/soc:qcom,dsi-display/msm_fb_ea_enable      u:object_r:sysfs_dm:s0

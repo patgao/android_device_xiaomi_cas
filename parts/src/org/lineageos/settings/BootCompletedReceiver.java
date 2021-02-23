@@ -23,6 +23,10 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.util.Log;
 
+import android.os.SystemProperties;
+import androidx.preference.PreferenceManager;
+import org.lineageos.settings.utils.FileUtils;
+
 import org.lineageos.settings.dirac.DiracUtils;
 import org.lineageos.settings.doze.DozeUtils;
 import vendor.xiaomi.hardware.touchfeature.V1_0.ITouchFeature;
@@ -31,6 +35,9 @@ public class BootCompletedReceiver extends BroadcastReceiver {
 
     private static final boolean DEBUG = false;
     private static final String TAG = "XiaomiParts";
+
+    private static final String DC_DIMMING_ENABLE_KEY = "dc_dimming_enable";
+    private static final String DC_DIMMING_NODE = "/sys/devices/platform/soc/soc:qcom,dsi-display/msm_fb_ea_enable";
 
     public static final String SHAREDD2TW = "sharadeD2TW";
     private ITouchFeature mTouchFeature;
@@ -46,8 +53,14 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         // Do nothing
     }
         if (DEBUG) Log.d(TAG, "Received boot completed intent");
+        
+        SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(context);
+        
         DiracUtils.initialize(context);
         DozeUtils.checkDozeService(context);
+
+        boolean dcDimmingEnabled = sharedPrefs.getBoolean(DC_DIMMING_ENABLE_KEY, false);
+        FileUtils.writeLine(DC_DIMMING_NODE, dcDimmingEnabled ? "1" : "0");
     }
 
 }
