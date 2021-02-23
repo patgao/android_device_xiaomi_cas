@@ -187,7 +187,7 @@ SELINUX_IGNORE_NEVERALLOWS := true
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
     $(DEVICE_PATH)/sepolicy/private \
 include device/qcom/sepolicy/SEPolicy.mk
-BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+
 # Screen
 TARGET_SCREEN_DENSITY := 420
 
