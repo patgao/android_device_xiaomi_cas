@@ -240,7 +240,3 @@ PRODUCT_PACKAGES += \
 # XiaomiParts
 PRODUCT_PACKAGES += \
     XiaomiParts
-
-# KeyHandler
-PRODUCT_PACKAGES += \
-    KeyHandler
