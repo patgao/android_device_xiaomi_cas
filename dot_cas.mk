@@ -17,11 +17,11 @@
 # Inherit device configuration
 $(call inherit-product, device/xiaomi/cas/device.mk)
 
-# Inherit some common AOSP stuff.
-$(call inherit-product, vendor/aosp/config/common.mk)
+# Inherit some common dotOS stuff.
+$(call inherit-product, vendor/dot/config/common.mk)
 
 # Override build properties
-PRODUCT_NAME := aosp_cas
+PRODUCT_NAME := dot_cas
 PRODUCT_DEVICE := cas
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := M2007J1SC

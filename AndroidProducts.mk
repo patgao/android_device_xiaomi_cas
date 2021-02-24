@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_cas.mk
+    $(LOCAL_DIR)/dot_cas.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_cas-user \
-    aosp_cas-userdebug \
-    aosp_cas-eng
+    dot_cas-user \
+    dot_cas-userdebug \
+    dot_cas-eng
