@@ -240,3 +240,10 @@ PRODUCT_PACKAGES += \
 # XiaomiParts
 PRODUCT_PACKAGES += \
     XiaomiParts
+
+# Device Settings
+PRODUCT_PACKAGES += \
+    DeviceSettings
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/devicesettings/privapp-permissions-devicesettings.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-devicesettings.xml
