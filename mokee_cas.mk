@@ -17,11 +17,11 @@
 # Inherit device configuration
 $(call inherit-product, device/xiaomi/cas/device.mk)
 
-# Inherit some common dotOS stuff.
-$(call inherit-product, vendor/dot/config/common.mk)
+# Inherit some common mokee stuff.
+$(call inherit-product, vendor/mokee/config/common.mk)
 
 # Override build properties
-PRODUCT_NAME := dot_cas
+PRODUCT_NAME := mokee_cas
 PRODUCT_DEVICE := cas
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := M2007J1SC
